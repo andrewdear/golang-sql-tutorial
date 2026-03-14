@@ -16,3 +16,30 @@ create the database we will be working with
 ```
     CREATE DATABASE golang_sql;
 ```
+
+## Init golang
+https://go.dev/doc/tutorial/getting-started#install
+
+`
+    go mod init golang-sql-tutorial
+`
+
+## Install sqlx
+
+https://github.com/jmoiron/sqlx
+
+```
+    go get github.com/jmoiron/sqlx
+    go get github.com/lib/pq
+    go get github.com/sirupsen/logrus
+```
+
+we will go over
+
+* connecting to sql
+* keeping that connection alive and connection recovery
+* inserting into databases
+* querying and inserting into structs automatically
+* querying data into variables instead of structs
+* named queries
+* using external files in queries

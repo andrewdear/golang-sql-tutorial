@@ -1,1 +1,1 @@
-SELECT * FROM users WHERE id = :user_id;
+SELECT * FROM todos WHERE user_id = :user_id;
